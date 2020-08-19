@@ -1,2 +1,2 @@
 # spark-learning
-demo project for kafka learning
+demo project for spark learning
