@@ -1,4 +1,4 @@
-package person.rulo.spark.learning.common.initializers;
+package person.rulo.spark.learning.common.initializer;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;

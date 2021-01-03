@@ -1,10 +1,10 @@
-package person.rulo.spark.learning.datasets;
+package person.rulo.spark.learning.dataset;
 
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SaveMode;
 import org.apache.spark.sql.SparkSession;
-import person.rulo.spark.learning.common.initializers.SparkSessionInitializer;
+import person.rulo.spark.learning.common.initializer.SparkSessionInitializer;
 
 import java.util.Properties;
 

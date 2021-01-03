@@ -1,9 +1,9 @@
-package person.rulo.spark.learning.datasets.udf;
+package person.rulo.spark.learning.dataset.udf;
 
 import org.apache.spark.sql.*;
 import org.apache.spark.sql.expressions.Aggregator;
-import person.rulo.spark.learning.common.initializers.SparkSessionInitializer;
-import person.rulo.spark.learning.common.pojos.Employee;
+import person.rulo.spark.learning.common.initializer.SparkSessionInitializer;
+import person.rulo.spark.learning.common.pojo.Employee;
 
 /**
  * @Author rulo

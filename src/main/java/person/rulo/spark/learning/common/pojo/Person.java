@@ -1,4 +1,4 @@
-package person.rulo.spark.learning.common.pojos;
+package person.rulo.spark.learning.common.pojo;
 
 import java.io.Serializable;
 

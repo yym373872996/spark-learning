@@ -1,4 +1,4 @@
-package person.rulo.spark.learning.datasets.udf;
+package person.rulo.spark.learning.dataset.udf;
 
 /**
  * @Author rulo

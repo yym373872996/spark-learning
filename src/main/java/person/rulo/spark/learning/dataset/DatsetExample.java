@@ -1,4 +1,4 @@
-package person.rulo.spark.learning.datasets;
+package person.rulo.spark.learning.dataset;
 
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.function.Function;
@@ -7,8 +7,8 @@ import org.apache.spark.sql.*;
 import org.apache.spark.sql.types.DataTypes;
 import org.apache.spark.sql.types.StructField;
 import org.apache.spark.sql.types.StructType;
-import person.rulo.spark.learning.common.initializers.SparkSessionInitializer;
-import person.rulo.spark.learning.common.pojos.Person;
+import person.rulo.spark.learning.common.initializer.SparkSessionInitializer;
+import person.rulo.spark.learning.common.pojo.Person;
 
 import java.util.ArrayList;
 import java.util.Arrays;
