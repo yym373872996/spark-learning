@@ -1,4 +1,4 @@
-package person.rulo.spark.learning.example;
+package person.rulo.spark.learning.rdd.example;
 
 import java.util.Arrays;
 import java.util.regex.Pattern;
