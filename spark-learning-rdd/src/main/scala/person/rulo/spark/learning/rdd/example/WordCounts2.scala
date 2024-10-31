@@ -20,10 +20,12 @@ object WordCounts2 {
     val lines: RDD[String] = sparkContext
       .textFile("/Users/rulo/Workspaces/data/word_counts/in/input.txt")
       .cache
+
     val wordCounts = lines
       .flatMap((s: String) => SPACE.split(s))
-      .map(s => Tuple2(s, 1))
+      .map(s => (s, 1))
       .reduceByKey((v1, v2) => v1 + v2)
+
     wordCounts.saveAsTextFile("/Users/rulo/Workspaces/data/word_counts/out")
   }
 
