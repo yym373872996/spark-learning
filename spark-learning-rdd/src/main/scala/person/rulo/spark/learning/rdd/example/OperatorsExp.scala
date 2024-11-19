@@ -18,11 +18,11 @@ object OperatorsExp {
 
     // map
     // 将处理的数据逐条进行映射转换，这里的转换可以是类型的转换，也可以是值的转换
-//    val rdd = sc.makeRDD(
-//      List(1, 2, 3, 4)
-//    )
-//    val mapRDD = rdd.map(_*2)
-//    mapRDD.collect().foreach(println)
+    val rdd = sc.makeRDD(
+      List(1, 2, 3, 4)
+    )
+    val mapRDD = rdd.map(_*2)
+    mapRDD.collect().foreach(println)
 
     // mapPartitions
     // 以分区为单位对数据进行处理，这里的处理是指可以进行任意的处理，哪怕是过滤数据
@@ -343,13 +343,15 @@ object OperatorsExp {
     // （2）saveAsSequenceFile(path) 保存成SequenceFile文件
     // （3）saveAsObjectFile(path) 序列化成对象保存到文件
 
-    val rdd = sc.makeRDD(List(("a",1),("a",2),("a",3),("b",4)),2)
-    rdd.saveAsTextFile("output")
-    rdd.saveAsObjectFile("output1")
-    // saveAsSequenceFile 方法要求数据的格式必须为 K-V 键值对类型
-    rdd.saveAsSequenceFile("output2")
+//    val rdd = sc.makeRDD(List(("a",1),("a",2),("a",3),("b",4)),2)
+//    rdd.saveAsTextFile("output")
+//    rdd.saveAsObjectFile("output1")
+//    // saveAsSequenceFile 方法要求数据的格式必须为 K-V 键值对类型
+//    rdd.saveAsSequenceFile("output2")
 
     /** action end */
+
+    while(true) {}
 
     sc.stop()
 
